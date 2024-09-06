@@ -1,0 +1,2 @@
+# tietokannat
+sql tietokantatehtävien palautus
