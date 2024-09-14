@@ -14,6 +14,3 @@
 
 ### Tehtävä 5
 ![ruudunkaappaus](resources/06_tehtävä_5.png)
-
-### Tehtävä 6
-![ruudunkaappaus](resources/06_tehtävä_6.png)
