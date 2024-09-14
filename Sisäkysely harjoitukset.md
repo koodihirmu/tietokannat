@@ -9,6 +9,7 @@ where country.iso_country in
     from airport
     where name like "%satsuma%"
 );
+
 ![ruudunkaappaus](resources/06_tehtävä_1.png)
 
 ### Tehtävä 2
@@ -20,6 +21,7 @@ where airport.iso_country in
     from country
     where name = "Monaco"
 );
+
 ![ruudunkaappaus](resources/06_tehtävä_2.png)
 
 ### Tehtävä 3
@@ -35,6 +37,7 @@ where game.id in
         where name = "CLOUDS"
     )
 )
+
 ![ruudunkaappaus](resources/06_tehtävä_3.png)
 
 ### Tehtävä 4
@@ -44,6 +47,7 @@ where iso_country not in (
     select iso_country
     from airport
 )
+
 ![ruudunkaappaus](resources/06_tehtävä_4.png)
 
 ### Tehtävä 5
@@ -58,4 +62,5 @@ where id not in (
         where screen_name = "Heini"
     )
 )
+
 ![ruudunkaappaus](resources/06_tehtävä_5.png)
